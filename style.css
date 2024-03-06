@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif;  
   font-size: 1.6rem;
 }
 
@@ -57,12 +57,15 @@ header form {
   padding: 1.6rem;
 
   background-color: var(--color-base-blue20);
+  color: var(--color-base-white2);
+  font-weight: 600;
+
   border: 0;
   border-radius: .4rem;
 }
 
 .input-wrapper input::placeholder {
-  opacity: 0.;
+  opacity: 0.6;
   color: var(--color-base-white2);
   font-weight: 600;
   letter-spacing: .2rem ;
@@ -91,13 +94,13 @@ main h1  {
   align-items: center;
   justify-content: center;
 
-  padding: 1rem;
-  width: 5.2rem;
+  padding: 1.2rem;
+  width: 5.5rem;
   height: 5.2rem;
   background-color: var(--color-base-blue50);
   
   border: none;
-  border-radius: 9.99rem;
+  border-radius: 50%;
   cursor: pointer;
   margin: 1rem;
 }
@@ -106,6 +109,7 @@ main h1  {
 .button img {
   color: var(--color-base-white);
   width: 100%;
+  padding: .2rem
 }
 
 main p {
@@ -187,7 +191,7 @@ footer {
     transform: translateY(var(--startY));
   }
   to {
-
+    
   }
 }
 
